@@ -1,0 +1,27 @@
+<main class="page-content" aria-label="Content">
+  <div class="wrapper">
+    <div class="home">
+      <h1 class="page-heading">日志列表</h1>
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+          <div class="content" id="{{ forloop.index }}">
+            <div class="log content">
+                <div class="log item">
+                  <div class="log title">
+                     <a href="{{ post.url }}" position="{{ forloop.index }}">
+                       {{ post.title }}
+                       <span class="log time">
+                         {{ post.date | date: "%Y-%m-%d" }}
+                       </span>
+                     </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</main>
