@@ -99,4 +99,4 @@ myblog/
  - 使用 GitHub Pages 发布
  1. GitHub 上创建用于发布 Blog 的仓库，将 Jekyll 项目 push 到该仓库
   比如我创建的仓库为：'wewin11235/myblog'
- 3. 仓库管理，进入 Settings 
+ 3. 仓库管理，进入 Settings ，启用 GitHub page
