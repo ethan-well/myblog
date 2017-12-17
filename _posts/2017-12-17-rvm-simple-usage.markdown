@@ -94,4 +94,4 @@ myblog/
 ├── index.html
 └── index.md
  ```
- 参考地址： [demo](http://baidu.com)
+ 参考地址： [Demo](https://github.com/wewin11235/jekyll-demo)
