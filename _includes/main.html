@@ -9,7 +9,7 @@
             <div class="log content">
                 <div class="log item">
                   <div class="log title">
-                     <a href="{{ post.url }}" position="{{ forloop.index }}">
+                    <a href="{{ post.url | relative_url }}" position="{{ forloop.index }}">
                        {{ post.title }}
                        <span class="log time">
                          {{ post.date | date: "%Y-%m-%d" }}

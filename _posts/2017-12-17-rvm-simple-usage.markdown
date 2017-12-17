@@ -65,7 +65,7 @@ myblog/
 ├── index.html  # 入口文件
 └── index.md
 ```
- 3. 启动 Jekyll 开发服务器，实用浏览器预览
+ 4. 启动 Jekyll 开发服务器，实用浏览器预览
  ```
  $ jekyll serve
  ```
@@ -95,3 +95,8 @@ myblog/
 └── index.md
  ```
  参考地址： [Demo](https://github.com/wewin11235/jekyll-demo)
+
+ - 使用 GitHub Pages 发布
+ 1. GitHub 上创建用于发布 Blog 的仓库，将 Jekyll 项目 push 到该仓库
+  比如我创建的仓库为：'wewin11235/myblog'
+ 3. 仓库管理，进入 Settings 
